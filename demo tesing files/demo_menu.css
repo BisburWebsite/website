@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(..//bg/bg.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.menus{
+    width: 860px;
+    margin: 0 auto;
+}
+.menus ul{
+    list-style: none;
+    margin-top: 2%;
+}
+.menus ul li{
+    background: #262626;
+    width: 170px;
+    border: 1px solid #ffffff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    position: relative;
+    font-family: big john;
+}
+.menus ul li:hover{
+    background: crimson;
+    cursor: pointer;
+} 
+.menus ul li:active{
+    background: lightskyblue;
+    cursor: pointer;
+}
+.menus ul ul{
+    display: none;
+}
+.menus ul li:hover > ul{
+    display: block;
+}
